@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/fem-news-homepage/static/css/main.4013154b.css",
+    "main.js": "/fem-news-homepage/static/js/main.5ae1391c.js",
+    "static/media/image-web-3-desktop.jpg": "/fem-news-homepage/static/media/image-web-3-desktop.988d05305d18140f188c.jpg",
+    "static/media/inter-v12-latin-700.svg": "/fem-news-homepage/static/media/inter-v12-latin-700.0a85e1f2fd11f8afbfa1.svg",
+    "static/media/inter-v12-latin-800.svg": "/fem-news-homepage/static/media/inter-v12-latin-800.382996fbcd8c32082084.svg",
+    "static/media/inter-v12-latin-regular.svg": "/fem-news-homepage/static/media/inter-v12-latin-regular.b8db5cf5416facf0c5ec.svg",
+    "static/media/image-web-3-mobile.jpg": "/fem-news-homepage/static/media/image-web-3-mobile.aff7a393740bc26b3651.jpg",
+    "static/media/inter-v12-latin-800.ttf": "/fem-news-homepage/static/media/inter-v12-latin-800.9a9d2a310a6f97a0a838.ttf",
+    "static/media/inter-v12-latin-700.ttf": "/fem-news-homepage/static/media/inter-v12-latin-700.1a8ee2b437a5aa448647.ttf",
+    "static/media/inter-v12-latin-regular.ttf": "/fem-news-homepage/static/media/inter-v12-latin-regular.9ba6f9c489a7031fe88e.ttf",
+    "static/media/inter-v12-latin-800.woff": "/fem-news-homepage/static/media/inter-v12-latin-800.f8e8bd61bdf890048dd1.woff",
+    "static/media/inter-v12-latin-700.woff": "/fem-news-homepage/static/media/inter-v12-latin-700.7ad0df5561cc0933cead.woff",
+    "static/media/inter-v12-latin-regular.woff": "/fem-news-homepage/static/media/inter-v12-latin-regular.817c4274293e221c5076.woff",
+    "static/media/inter-v12-latin-800.eot": "/fem-news-homepage/static/media/inter-v12-latin-800.cb88db5f5f9a1a9b06a8.eot",
+    "static/media/inter-v12-latin-700.eot": "/fem-news-homepage/static/media/inter-v12-latin-700.e2097f4f0ab4d1ed5bee.eot",
+    "static/media/inter-v12-latin-regular.eot": "/fem-news-homepage/static/media/inter-v12-latin-regular.82f9ad3014f93403bbd1.eot",
+    "static/media/inter-v12-latin-700.woff2": "/fem-news-homepage/static/media/inter-v12-latin-700.54321e26b8bf4739a16d.woff2",
+    "static/media/inter-v12-latin-800.woff2": "/fem-news-homepage/static/media/inter-v12-latin-800.7e1a31f93354d23987f4.woff2",
+    "static/media/inter-v12-latin-regular.woff2": "/fem-news-homepage/static/media/inter-v12-latin-regular.be7cb18dc7caf47cf7e9.woff2",
+    "static/media/image-retro-pcs.jpg": "/fem-news-homepage/static/media/image-retro-pcs.4ecb8a36b05f012297a6.jpg",
+    "static/media/logo.svg": "/fem-news-homepage/static/media/logo.c6b5661f5975f9f1c10d76ac5d2a72c6.svg",
+    "index.html": "/fem-news-homepage/index.html",
+    "static/media/icon-menu-close.svg": "/fem-news-homepage/static/media/icon-menu-close.ca20d86e8364ad748c947025ef771994.svg",
+    "static/media/icon-menu.svg": "/fem-news-homepage/static/media/icon-menu.f967d833be0e64002eeaadab0bae9ac5.svg",
+    "main.4013154b.css.map": "/fem-news-homepage/static/css/main.4013154b.css.map",
+    "main.5ae1391c.js.map": "/fem-news-homepage/static/js/main.5ae1391c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4013154b.css",
+    "static/js/main.5ae1391c.js"
+  ]
+}
