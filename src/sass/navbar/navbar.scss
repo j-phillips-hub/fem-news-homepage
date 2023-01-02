@@ -1,0 +1,19 @@
+@use "../functions.scss" as f;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: f.px-rem(61);
+
+  &__logo {
+    width: clamp(f.px-rem(44.98), 5vw, f.px-rem(64.09));
+    height: clamp(f.px-rem(28), 4vw, f.px-rem(39.9));
+  }
+
+  &__open-dropdown {
+    width: f.px-rem(40);
+    height: f.px-rem(17);
+    cursor: pointer;
+  }
+}

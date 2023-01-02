@@ -1,0 +1,36 @@
+@use "../functions.scss" as f;
+
+.navList {
+  display: flex;
+  gap: f.px-rem(40);
+
+  @media (max-width: 810px) {
+    flex-direction: column;
+    gap: f.px-rem(24);
+  }
+
+  &__link {
+    line-height: f.px-rem(26);
+  }
+
+  &__btn {
+    color: var(--clr-very-dark-greyish-blue);
+    font-size: f.px-rem(18);
+
+    &:hover {
+      color: var(--clr-soft-red);
+      text-decoration: underline;
+    }
+
+    &:focus {
+      color: var(--clr-soft-red);
+      outline: none;
+      border-bottom: 1px solid var(--clr-soft-red);
+    }
+
+    @media (min-width: 810px) {
+      color: var(--clr-dark-greyish-blue);
+      font-size: f.px-rem(15);
+    }
+  }
+}

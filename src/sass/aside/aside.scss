@@ -1,0 +1,8 @@
+@use "../functions.scss" as f;
+
+.topPostContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: f.px-rem(30);
+  margin-top: f.px-rem(67.2);
+}

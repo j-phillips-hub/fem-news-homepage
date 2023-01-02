@@ -1,0 +1,31 @@
+@use "../functions.scss" as f;
+
+.dropdown {
+  background-color: var(--clr-off-white);
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: f.px-rem(256);
+  padding: f.px-rem(27.3) f.px-rem(20.8) f.px-rem(0) f.px-rem(24);
+  z-index: 1000;
+
+  &__close {
+    margin-left: 86%;
+    margin-bottom: f.px-rem(86.3);
+    cursor: pointer;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.dropdownBg-visible {
+  background-color: var(--clr-nav-dropdown-body-bg);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

@@ -1,0 +1,28 @@
+@use "../functions.scss" as f;
+
+.readMore {
+  background-color: var(--clr-soft-red);
+  color: var(--clr-white);
+  font-size: f.px-rem(14);
+  font-weight: 700;
+  padding: 1.1em 3.6em;
+  // width: 44.3%;
+  // height: 28.58%;
+  margin-top: f.px-rem(29);
+  margin-left: 72px;
+  text-transform: uppercase;
+  transition: all ease-in-out 0.3s;
+
+  @media (max-width: 1400px) {
+    margin-left: 0;
+  }
+
+  &:hover {
+    background-color: var(--clr-very-dark-greyish-blue);
+  }
+
+  &:focus {
+    background-color: var(--clr-very-dark-greyish-blue);
+    outline: none;
+  }
+}

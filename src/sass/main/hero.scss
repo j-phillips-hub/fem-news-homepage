@@ -1,0 +1,37 @@
+@use "../functions.scss" as f;
+
+.hero {
+  grid-area: hero;
+
+  &__img {
+    margin-bottom: f.px-rem(40);
+  }
+
+  .cta {
+    display: flex;
+    gap: 1rem;
+
+    @media (max-width: 1400px) {
+      flex-direction: column;
+    }
+
+    &__heading {
+      color: var(--clr-very-dark-greyish-blue);
+      font-size: clamp(f.px-rem(40), 4vw, f.px-rem(56));
+      line-height: f.px-rem(56);
+      font-weight: 800;
+    }
+
+    &__description {
+      color: var(--clr-dark-greyish-blue);
+      line-height: f.px-rem(26);
+      width: 82%;
+      margin-left: f.px-rem(72);
+
+      @media (max-width: 1400px) {
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+  }
+}

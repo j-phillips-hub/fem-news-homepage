@@ -1,0 +1,14 @@
+@use "../functions.scss" as f;
+
+.mainContainer {
+  display: grid;
+  grid-template-areas:
+    "hero posts"
+    "hero posts";
+  gap: f.px-rem(30);
+
+  @media (max-width: 810px) {
+    display: flex;
+    flex-direction: column;
+  }
+}

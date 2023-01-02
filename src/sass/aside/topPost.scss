@@ -1,0 +1,42 @@
+@use "../functions.scss" as f;
+
+.topPost {
+  display: flex;
+  align-items: center;
+  gap: f.px-rem(24);
+  max-width: 350px;
+
+  &__img {
+    width: f.px-rem(100);
+    height: f.px-rem(127);
+  }
+
+  &__number {
+    color: var(--clr-greyish-blue);
+    font-size: f.px-rem(32);
+    font-weight: 700;
+    line-height: f.px-rem(32);
+  }
+
+  &__link {
+    color: var(--clr-very-dark-greyish-blue);
+    font-size: f.px-rem(18);
+    font-weight: 800;
+    line-height: f.px-rem(24);
+    margin: f.px-rem(12) 0 f.px-rem(9);
+
+    &:hover {
+      color: var(--clr-soft-red);
+    }
+
+    &:focus {
+      color: var(--clr-soft-red);
+      outline: none;
+    }
+  }
+
+  &__description {
+    color: var(--clr-dark-greyish-blue);
+    line-height: f.px-rem(26);
+  }
+}

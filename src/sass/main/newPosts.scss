@@ -1,0 +1,53 @@
+@use "../functions.scss" as f;
+
+.newPosts {
+  background-color: var(--clr-very-dark-greyish-blue);
+  padding: f.px-rem(32) f.px-rem(24);
+  max-width: 350px;
+  grid-area: posts;
+
+  @media (max-width: 810px) {
+    max-width: 100%;
+  }
+
+  &__header {
+    color: var(--clr-soft-orange);
+    font-size: clamp(f.px-rem(32), 3vw, f.px-rem(40));
+    font-weight: 700;
+    margin-bottom: f.px-rem(40);
+    line-height: f.px-rem(40);
+  }
+
+  .post {
+    &__link {
+      color: var(--clr-off-white);
+      font-size: f.px-rem(20);
+      font-weight: 800;
+      margin-bottom: f.px-rem(8);
+
+      &:hover {
+        color: var(--clr-soft-orange);
+        cursor: pointer;
+      }
+
+      &:focus {
+        color: var(--clr-soft-orange);
+        outline: none;
+      }
+    }
+
+    &__description {
+      color: var(--clr-greyish-blue);
+      line-height: f.px-rem(26);
+    }
+
+    hr {
+      color: var(--clr-dark-greyish-blue);
+      margin: f.px-rem(29) 0 f.px-rem(31);
+    }
+  }
+}
+
+.newPosts div:nth-child(4)hr {
+  display: none;
+}
